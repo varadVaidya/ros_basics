@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/varad/catkin_ws/src/ros_basics/build/devel/setup.sh
