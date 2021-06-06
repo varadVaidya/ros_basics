@@ -57,27 +57,27 @@ include CMakeFiles/talker_node.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/talker_node.dir/flags.make
 
-CMakeFiles/talker_node.dir/src/talker.cpp.o: CMakeFiles/talker_node.dir/flags.make
-CMakeFiles/talker_node.dir/src/talker.cpp.o: ../src/talker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/varad/catkin_ws/src/ros_basics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/talker_node.dir/src/talker.cpp.o"
-	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/talker_node.dir/src/talker.cpp.o -c /home/varad/catkin_ws/src/ros_basics/src/talker.cpp
+CMakeFiles/talker_node.dir/src/sub_pub/talker.cpp.o: CMakeFiles/talker_node.dir/flags.make
+CMakeFiles/talker_node.dir/src/sub_pub/talker.cpp.o: ../src/sub_pub/talker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/varad/catkin_ws/src/ros_basics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/talker_node.dir/src/sub_pub/talker.cpp.o"
+	/bin/x86_64-linux-gnu-g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/talker_node.dir/src/sub_pub/talker.cpp.o -c /home/varad/catkin_ws/src/ros_basics/src/sub_pub/talker.cpp
 
-CMakeFiles/talker_node.dir/src/talker.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/talker_node.dir/src/talker.cpp.i"
-	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/varad/catkin_ws/src/ros_basics/src/talker.cpp > CMakeFiles/talker_node.dir/src/talker.cpp.i
+CMakeFiles/talker_node.dir/src/sub_pub/talker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/talker_node.dir/src/sub_pub/talker.cpp.i"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/varad/catkin_ws/src/ros_basics/src/sub_pub/talker.cpp > CMakeFiles/talker_node.dir/src/sub_pub/talker.cpp.i
 
-CMakeFiles/talker_node.dir/src/talker.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/talker_node.dir/src/talker.cpp.s"
-	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/varad/catkin_ws/src/ros_basics/src/talker.cpp -o CMakeFiles/talker_node.dir/src/talker.cpp.s
+CMakeFiles/talker_node.dir/src/sub_pub/talker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/talker_node.dir/src/sub_pub/talker.cpp.s"
+	/bin/x86_64-linux-gnu-g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/varad/catkin_ws/src/ros_basics/src/sub_pub/talker.cpp -o CMakeFiles/talker_node.dir/src/sub_pub/talker.cpp.s
 
 # Object files for target talker_node
 talker_node_OBJECTS = \
-"CMakeFiles/talker_node.dir/src/talker.cpp.o"
+"CMakeFiles/talker_node.dir/src/sub_pub/talker.cpp.o"
 
 # External object files for target talker_node
 talker_node_EXTERNAL_OBJECTS =
 
-devel/lib/ros_basics/talker_node: CMakeFiles/talker_node.dir/src/talker.cpp.o
+devel/lib/ros_basics/talker_node: CMakeFiles/talker_node.dir/src/sub_pub/talker.cpp.o
 devel/lib/ros_basics/talker_node: CMakeFiles/talker_node.dir/build.make
 devel/lib/ros_basics/talker_node: /opt/ros/noetic/lib/libroscpp.so
 devel/lib/ros_basics/talker_node: /usr/lib/x86_64-linux-gnu/libpthread.so

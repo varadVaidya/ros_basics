@@ -505,59 +505,59 @@ gtest/fast:
 	$(MAKE) -f gtest/googletest/CMakeFiles/gtest.dir/build.make gtest/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-src/listener.o: src/listener.cpp.o
+src/sub_pub/listener.o: src/sub_pub/listener.cpp.o
 
-.PHONY : src/listener.o
-
-# target to build an object file
-src/listener.cpp.o:
-	$(MAKE) -f CMakeFiles/listener_node.dir/build.make CMakeFiles/listener_node.dir/src/listener.cpp.o
-.PHONY : src/listener.cpp.o
-
-src/listener.i: src/listener.cpp.i
-
-.PHONY : src/listener.i
-
-# target to preprocess a source file
-src/listener.cpp.i:
-	$(MAKE) -f CMakeFiles/listener_node.dir/build.make CMakeFiles/listener_node.dir/src/listener.cpp.i
-.PHONY : src/listener.cpp.i
-
-src/listener.s: src/listener.cpp.s
-
-.PHONY : src/listener.s
-
-# target to generate assembly for a file
-src/listener.cpp.s:
-	$(MAKE) -f CMakeFiles/listener_node.dir/build.make CMakeFiles/listener_node.dir/src/listener.cpp.s
-.PHONY : src/listener.cpp.s
-
-src/talker.o: src/talker.cpp.o
-
-.PHONY : src/talker.o
+.PHONY : src/sub_pub/listener.o
 
 # target to build an object file
-src/talker.cpp.o:
-	$(MAKE) -f CMakeFiles/talker_node.dir/build.make CMakeFiles/talker_node.dir/src/talker.cpp.o
-.PHONY : src/talker.cpp.o
+src/sub_pub/listener.cpp.o:
+	$(MAKE) -f CMakeFiles/listener_node.dir/build.make CMakeFiles/listener_node.dir/src/sub_pub/listener.cpp.o
+.PHONY : src/sub_pub/listener.cpp.o
 
-src/talker.i: src/talker.cpp.i
+src/sub_pub/listener.i: src/sub_pub/listener.cpp.i
 
-.PHONY : src/talker.i
+.PHONY : src/sub_pub/listener.i
 
 # target to preprocess a source file
-src/talker.cpp.i:
-	$(MAKE) -f CMakeFiles/talker_node.dir/build.make CMakeFiles/talker_node.dir/src/talker.cpp.i
-.PHONY : src/talker.cpp.i
+src/sub_pub/listener.cpp.i:
+	$(MAKE) -f CMakeFiles/listener_node.dir/build.make CMakeFiles/listener_node.dir/src/sub_pub/listener.cpp.i
+.PHONY : src/sub_pub/listener.cpp.i
 
-src/talker.s: src/talker.cpp.s
+src/sub_pub/listener.s: src/sub_pub/listener.cpp.s
 
-.PHONY : src/talker.s
+.PHONY : src/sub_pub/listener.s
 
 # target to generate assembly for a file
-src/talker.cpp.s:
-	$(MAKE) -f CMakeFiles/talker_node.dir/build.make CMakeFiles/talker_node.dir/src/talker.cpp.s
-.PHONY : src/talker.cpp.s
+src/sub_pub/listener.cpp.s:
+	$(MAKE) -f CMakeFiles/listener_node.dir/build.make CMakeFiles/listener_node.dir/src/sub_pub/listener.cpp.s
+.PHONY : src/sub_pub/listener.cpp.s
+
+src/sub_pub/talker.o: src/sub_pub/talker.cpp.o
+
+.PHONY : src/sub_pub/talker.o
+
+# target to build an object file
+src/sub_pub/talker.cpp.o:
+	$(MAKE) -f CMakeFiles/talker_node.dir/build.make CMakeFiles/talker_node.dir/src/sub_pub/talker.cpp.o
+.PHONY : src/sub_pub/talker.cpp.o
+
+src/sub_pub/talker.i: src/sub_pub/talker.cpp.i
+
+.PHONY : src/sub_pub/talker.i
+
+# target to preprocess a source file
+src/sub_pub/talker.cpp.i:
+	$(MAKE) -f CMakeFiles/talker_node.dir/build.make CMakeFiles/talker_node.dir/src/sub_pub/talker.cpp.i
+.PHONY : src/sub_pub/talker.cpp.i
+
+src/sub_pub/talker.s: src/sub_pub/talker.cpp.s
+
+.PHONY : src/sub_pub/talker.s
+
+# target to generate assembly for a file
+src/sub_pub/talker.cpp.s:
+	$(MAKE) -f CMakeFiles/talker_node.dir/build.make CMakeFiles/talker_node.dir/src/sub_pub/talker.cpp.s
+.PHONY : src/sub_pub/talker.cpp.s
 
 # Help Target
 help:
@@ -598,12 +598,12 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... src/listener.o"
-	@echo "... src/listener.i"
-	@echo "... src/listener.s"
-	@echo "... src/talker.o"
-	@echo "... src/talker.i"
-	@echo "... src/talker.s"
+	@echo "... src/sub_pub/listener.o"
+	@echo "... src/sub_pub/listener.i"
+	@echo "... src/sub_pub/listener.s"
+	@echo "... src/sub_pub/talker.o"
+	@echo "... src/sub_pub/talker.i"
+	@echo "... src/sub_pub/talker.s"
 .PHONY : help
 
 

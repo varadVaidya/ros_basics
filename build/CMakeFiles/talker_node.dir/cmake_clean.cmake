@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/talker_node.dir/src/talker.cpp.o"
+  "CMakeFiles/talker_node.dir/src/sub_pub/talker.cpp.o"
   "devel/lib/ros_basics/talker_node"
   "devel/lib/ros_basics/talker_node.pdb"
 )

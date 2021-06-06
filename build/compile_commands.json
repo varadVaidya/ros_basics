@@ -1,13 +1,13 @@
 [
 {
   "directory": "/home/varad/catkin_ws/src/ros_basics/build",
-  "command": "/bin/x86_64-linux-gnu-g++-9  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"ros_basics\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/listener_node.dir/src/listener.cpp.o -c /home/varad/catkin_ws/src/ros_basics/src/listener.cpp",
-  "file": "/home/varad/catkin_ws/src/ros_basics/src/listener.cpp"
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"ros_basics\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/listener_node.dir/src/sub_pub/listener.cpp.o -c /home/varad/catkin_ws/src/ros_basics/src/sub_pub/listener.cpp",
+  "file": "/home/varad/catkin_ws/src/ros_basics/src/sub_pub/listener.cpp"
 },
 {
   "directory": "/home/varad/catkin_ws/src/ros_basics/build",
-  "command": "/bin/x86_64-linux-gnu-g++-9  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"ros_basics\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/talker_node.dir/src/talker.cpp.o -c /home/varad/catkin_ws/src/ros_basics/src/talker.cpp",
-  "file": "/home/varad/catkin_ws/src/ros_basics/src/talker.cpp"
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"ros_basics\\\" -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/talker_node.dir/src/sub_pub/talker.cpp.o -c /home/varad/catkin_ws/src/ros_basics/src/sub_pub/talker.cpp",
+  "file": "/home/varad/catkin_ws/src/ros_basics/src/sub_pub/talker.cpp"
 },
 {
   "directory": "/home/varad/catkin_ws/src/ros_basics/build/gtest/googlemock",

@@ -206,10 +206,10 @@ include_directories(
 # catkin_add_nosetests(test)
 
 #talker
-add_executable(talker_node src/talker.cpp)
+add_executable(talker_node src/sub_pub/talker.cpp)
 target_link_libraries(talker_node ${catkin_LIBRARIES})
 
 # listener
 
-add_executable(listener_node src/listener.cpp)
+add_executable(listener_node src/sub_pub/listener.cpp)
 target_link_libraries(listener_node ${catkin_LIBRARIES})
