@@ -2110,6 +2110,78 @@
 			"value" : "/opt/ros/noetic/share/cpp_common/cmake"
 		},
 		{
+			"name" : "gencpp_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for gencpp."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/opt/ros/noetic/share/gencpp/cmake"
+		},
+		{
+			"name" : "geneus_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for geneus."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/opt/ros/noetic/share/geneus/cmake"
+		},
+		{
+			"name" : "genlisp_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for genlisp."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/opt/ros/noetic/share/genlisp/cmake"
+		},
+		{
+			"name" : "genmsg_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for genmsg."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/opt/ros/noetic/share/genmsg/cmake"
+		},
+		{
+			"name" : "gennodejs_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for gennodejs."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/opt/ros/noetic/share/gennodejs/cmake"
+		},
+		{
+			"name" : "genpy_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for genpy."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/opt/ros/noetic/share/genpy/cmake"
+		},
+		{
 			"name" : "gmock_BINARY_DIR",
 			"properties" : 
 			[
@@ -2324,6 +2396,18 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "/opt/ros/noetic/lib/libxmlrpcpp.so"
+		},
+		{
+			"name" : "message_generation_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for message_generation."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/opt/ros/noetic/share/message_generation/cmake"
 		},
 		{
 			"name" : "message_runtime_DIR",

@@ -3,6 +3,6 @@ prefix=/usr/local
 Name: ros_basics
 Description: Description of ros_basics
 Version: 0.0.0
-Cflags: 
+Cflags: -I${prefix}/include
 Libs: -L${prefix}/lib 
 Requires: 
