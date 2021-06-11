@@ -8,8 +8,9 @@
             "includePath": [
                 "/home/varad/catkin_ws/devel/include/**",
                 "/opt/ros/noetic/include/**",
-                "/home/varad/catkin_ws/src/ros_essentials_cpp/include/**",
-                "/usr/include/**"
+                "/home/varad/catkin_ws/src/ros_basics/include/**",
+                "/usr/include/**",
+                "/opt/ros/noetic/include"
             ],
             "name": "ROS",
             "compileCommands": "${workspaceFolder}/build/compile_commands.json",

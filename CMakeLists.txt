@@ -54,11 +54,10 @@ add_message_files(
 )
 
 ## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
-#   Service1.srv
-#   Service2.srv
-# )
+add_service_files(
+  FILES
+  addTwoInts.srv
+)
 
 ## Generate actions in the 'action' folder
 # add_action_files(
@@ -213,3 +212,11 @@ target_link_libraries(talker_node ${catkin_LIBRARIES})
 
 add_executable(listener_node src/sub_pub/listener.cpp)
 target_link_libraries(listener_node ${catkin_LIBRARIES})
+
+# addint Server
+add_executable(addIntServer src/services/addintServer.cpp)
+target_link_libraries(addIntServer ${catkin_LIBRARIES})
+
+# addint Server
+add_executable(addIntClient src/services/addintClient.cpp)
+target_link_libraries(addIntClient ${catkin_LIBRARIES})

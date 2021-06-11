@@ -54,7 +54,9 @@ CMAKE_BINARY_DIR = /home/varad/catkin_ws/src/ros_basics/build
 include CMakeFiles/ros_basics_generate_messages_py.dir/progress.make
 
 CMakeFiles/ros_basics_generate_messages_py: devel/lib/python3/dist-packages/ros_basics/msg/_iotSensor.py
+CMakeFiles/ros_basics_generate_messages_py: devel/lib/python3/dist-packages/ros_basics/srv/_addTwoInts.py
 CMakeFiles/ros_basics_generate_messages_py: devel/lib/python3/dist-packages/ros_basics/msg/__init__.py
+CMakeFiles/ros_basics_generate_messages_py: devel/lib/python3/dist-packages/ros_basics/srv/__init__.py
 
 
 devel/lib/python3/dist-packages/ros_basics/msg/_iotSensor.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
@@ -62,14 +64,28 @@ devel/lib/python3/dist-packages/ros_basics/msg/_iotSensor.py: ../msg/iotSensor.m
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/varad/catkin_ws/src/ros_basics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG ros_basics/iotSensor"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/varad/catkin_ws/src/ros_basics/msg/iotSensor.msg -Iros_basics:/home/varad/catkin_ws/src/ros_basics/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ros_basics -o /home/varad/catkin_ws/src/ros_basics/build/devel/lib/python3/dist-packages/ros_basics/msg
 
+devel/lib/python3/dist-packages/ros_basics/srv/_addTwoInts.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+devel/lib/python3/dist-packages/ros_basics/srv/_addTwoInts.py: ../srv/addTwoInts.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/varad/catkin_ws/src/ros_basics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python code from SRV ros_basics/addTwoInts"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/varad/catkin_ws/src/ros_basics/srv/addTwoInts.srv -Iros_basics:/home/varad/catkin_ws/src/ros_basics/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ros_basics -o /home/varad/catkin_ws/src/ros_basics/build/devel/lib/python3/dist-packages/ros_basics/srv
+
 devel/lib/python3/dist-packages/ros_basics/msg/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 devel/lib/python3/dist-packages/ros_basics/msg/__init__.py: devel/lib/python3/dist-packages/ros_basics/msg/_iotSensor.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/varad/catkin_ws/src/ros_basics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python msg __init__.py for ros_basics"
+devel/lib/python3/dist-packages/ros_basics/msg/__init__.py: devel/lib/python3/dist-packages/ros_basics/srv/_addTwoInts.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/varad/catkin_ws/src/ros_basics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python msg __init__.py for ros_basics"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/varad/catkin_ws/src/ros_basics/build/devel/lib/python3/dist-packages/ros_basics/msg --initpy
+
+devel/lib/python3/dist-packages/ros_basics/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+devel/lib/python3/dist-packages/ros_basics/srv/__init__.py: devel/lib/python3/dist-packages/ros_basics/msg/_iotSensor.py
+devel/lib/python3/dist-packages/ros_basics/srv/__init__.py: devel/lib/python3/dist-packages/ros_basics/srv/_addTwoInts.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/varad/catkin_ws/src/ros_basics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python srv __init__.py for ros_basics"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/varad/catkin_ws/src/ros_basics/build/devel/lib/python3/dist-packages/ros_basics/srv --initpy
 
 ros_basics_generate_messages_py: CMakeFiles/ros_basics_generate_messages_py
 ros_basics_generate_messages_py: devel/lib/python3/dist-packages/ros_basics/msg/_iotSensor.py
+ros_basics_generate_messages_py: devel/lib/python3/dist-packages/ros_basics/srv/_addTwoInts.py
 ros_basics_generate_messages_py: devel/lib/python3/dist-packages/ros_basics/msg/__init__.py
+ros_basics_generate_messages_py: devel/lib/python3/dist-packages/ros_basics/srv/__init__.py
 ros_basics_generate_messages_py: CMakeFiles/ros_basics_generate_messages_py.dir/build.make
 
 .PHONY : ros_basics_generate_messages_py

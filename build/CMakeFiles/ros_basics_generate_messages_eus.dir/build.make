@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/varad/catkin_ws/src/ros_basics/build
 include CMakeFiles/ros_basics_generate_messages_eus.dir/progress.make
 
 CMakeFiles/ros_basics_generate_messages_eus: devel/share/roseus/ros/ros_basics/msg/iotSensor.l
+CMakeFiles/ros_basics_generate_messages_eus: devel/share/roseus/ros/ros_basics/srv/addTwoInts.l
 CMakeFiles/ros_basics_generate_messages_eus: devel/share/roseus/ros/ros_basics/manifest.l
 
 
@@ -62,12 +63,18 @@ devel/share/roseus/ros/ros_basics/msg/iotSensor.l: ../msg/iotSensor.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/varad/catkin_ws/src/ros_basics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp code from ros_basics/iotSensor.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/varad/catkin_ws/src/ros_basics/msg/iotSensor.msg -Iros_basics:/home/varad/catkin_ws/src/ros_basics/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ros_basics -o /home/varad/catkin_ws/src/ros_basics/build/devel/share/roseus/ros/ros_basics/msg
 
+devel/share/roseus/ros/ros_basics/srv/addTwoInts.l: /opt/ros/noetic/lib/geneus/gen_eus.py
+devel/share/roseus/ros/ros_basics/srv/addTwoInts.l: ../srv/addTwoInts.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/varad/catkin_ws/src/ros_basics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp code from ros_basics/addTwoInts.srv"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py /home/varad/catkin_ws/src/ros_basics/srv/addTwoInts.srv -Iros_basics:/home/varad/catkin_ws/src/ros_basics/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ros_basics -o /home/varad/catkin_ws/src/ros_basics/build/devel/share/roseus/ros/ros_basics/srv
+
 devel/share/roseus/ros/ros_basics/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/varad/catkin_ws/src/ros_basics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating EusLisp manifest code for ros_basics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/varad/catkin_ws/src/ros_basics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating EusLisp manifest code for ros_basics"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/varad/catkin_ws/src/ros_basics/build/devel/share/roseus/ros/ros_basics ros_basics std_msgs
 
 ros_basics_generate_messages_eus: CMakeFiles/ros_basics_generate_messages_eus
 ros_basics_generate_messages_eus: devel/share/roseus/ros/ros_basics/msg/iotSensor.l
+ros_basics_generate_messages_eus: devel/share/roseus/ros/ros_basics/srv/addTwoInts.l
 ros_basics_generate_messages_eus: devel/share/roseus/ros/ros_basics/manifest.l
 ros_basics_generate_messages_eus: CMakeFiles/ros_basics_generate_messages_eus.dir/build.make
 

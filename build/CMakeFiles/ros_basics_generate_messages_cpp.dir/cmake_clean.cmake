@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ros_basics_generate_messages_cpp"
+  "devel/include/ros_basics/addTwoInts.h"
   "devel/include/ros_basics/iotSensor.h"
 )
 

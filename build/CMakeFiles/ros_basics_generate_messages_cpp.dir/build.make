@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/varad/catkin_ws/src/ros_basics/build
 include CMakeFiles/ros_basics_generate_messages_cpp.dir/progress.make
 
 CMakeFiles/ros_basics_generate_messages_cpp: devel/include/ros_basics/iotSensor.h
+CMakeFiles/ros_basics_generate_messages_cpp: devel/include/ros_basics/addTwoInts.h
 
 
 devel/include/ros_basics/iotSensor.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
@@ -62,8 +63,16 @@ devel/include/ros_basics/iotSensor.h: /opt/ros/noetic/share/gencpp/msg.h.templat
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/varad/catkin_ws/src/ros_basics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from ros_basics/iotSensor.msg"
 	cd /home/varad/catkin_ws/src/ros_basics && /home/varad/catkin_ws/src/ros_basics/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/varad/catkin_ws/src/ros_basics/msg/iotSensor.msg -Iros_basics:/home/varad/catkin_ws/src/ros_basics/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ros_basics -o /home/varad/catkin_ws/src/ros_basics/build/devel/include/ros_basics -e /opt/ros/noetic/share/gencpp/cmake/..
 
+devel/include/ros_basics/addTwoInts.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+devel/include/ros_basics/addTwoInts.h: ../srv/addTwoInts.srv
+devel/include/ros_basics/addTwoInts.h: /opt/ros/noetic/share/gencpp/msg.h.template
+devel/include/ros_basics/addTwoInts.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/varad/catkin_ws/src/ros_basics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from ros_basics/addTwoInts.srv"
+	cd /home/varad/catkin_ws/src/ros_basics && /home/varad/catkin_ws/src/ros_basics/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/varad/catkin_ws/src/ros_basics/srv/addTwoInts.srv -Iros_basics:/home/varad/catkin_ws/src/ros_basics/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ros_basics -o /home/varad/catkin_ws/src/ros_basics/build/devel/include/ros_basics -e /opt/ros/noetic/share/gencpp/cmake/..
+
 ros_basics_generate_messages_cpp: CMakeFiles/ros_basics_generate_messages_cpp
 ros_basics_generate_messages_cpp: devel/include/ros_basics/iotSensor.h
+ros_basics_generate_messages_cpp: devel/include/ros_basics/addTwoInts.h
 ros_basics_generate_messages_cpp: CMakeFiles/ros_basics_generate_messages_cpp.dir/build.make
 
 .PHONY : ros_basics_generate_messages_cpp

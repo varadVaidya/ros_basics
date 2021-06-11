@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/varad/catkin_ws/src/ros_basics/build
 include CMakeFiles/ros_basics_generate_messages_nodejs.dir/progress.make
 
 CMakeFiles/ros_basics_generate_messages_nodejs: devel/share/gennodejs/ros/ros_basics/msg/iotSensor.js
+CMakeFiles/ros_basics_generate_messages_nodejs: devel/share/gennodejs/ros/ros_basics/srv/addTwoInts.js
 
 
 devel/share/gennodejs/ros/ros_basics/msg/iotSensor.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
@@ -61,8 +62,14 @@ devel/share/gennodejs/ros/ros_basics/msg/iotSensor.js: ../msg/iotSensor.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/varad/catkin_ws/src/ros_basics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from ros_basics/iotSensor.msg"
 	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/varad/catkin_ws/src/ros_basics/msg/iotSensor.msg -Iros_basics:/home/varad/catkin_ws/src/ros_basics/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ros_basics -o /home/varad/catkin_ws/src/ros_basics/build/devel/share/gennodejs/ros/ros_basics/msg
 
+devel/share/gennodejs/ros/ros_basics/srv/addTwoInts.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+devel/share/gennodejs/ros/ros_basics/srv/addTwoInts.js: ../srv/addTwoInts.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/varad/catkin_ws/src/ros_basics/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Javascript code from ros_basics/addTwoInts.srv"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/varad/catkin_ws/src/ros_basics/srv/addTwoInts.srv -Iros_basics:/home/varad/catkin_ws/src/ros_basics/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p ros_basics -o /home/varad/catkin_ws/src/ros_basics/build/devel/share/gennodejs/ros/ros_basics/srv
+
 ros_basics_generate_messages_nodejs: CMakeFiles/ros_basics_generate_messages_nodejs
 ros_basics_generate_messages_nodejs: devel/share/gennodejs/ros/ros_basics/msg/iotSensor.js
+ros_basics_generate_messages_nodejs: devel/share/gennodejs/ros/ros_basics/srv/addTwoInts.js
 ros_basics_generate_messages_nodejs: CMakeFiles/ros_basics_generate_messages_nodejs.dir/build.make
 
 .PHONY : ros_basics_generate_messages_nodejs
