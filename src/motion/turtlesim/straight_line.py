@@ -54,8 +54,63 @@ def move(velocity_publisher,speed,distance,is_forward):
     vel_message.linear.x = 0
     velocity_publisher.publish(vel_message)
 
+def rotatebot(velocity_publisher,angular_speed_degree,relative_angle_degree,clockwise):
+    
+    vel_message = Twist()
+    
+    angular_speed = math.radians(abs(angular_speed_degree))
+    
+    if clockwise:
+        vel_message.angular.z = -abs(angular_speed)
+    else:
+        vel_message.angular.z = abs(angular_speed)
+    
+    loop_rate = rospy.Rate(10)
+    
+    t0 = rospy.Time.now().to_sec()
+    
+    while True:
+        
+        rospy.loginfo("Rotate")
+        velocity_publisher.publish(vel_message)
+        
+        t1 = rospy.Time.now().to_sec()
+        
+        current_angle_degree = (t1-t0) * angular_speed_degree
+        loop_rate.sleep()
+        
+        if (current_angle_degree>relative_angle_degree):
+            rospy.loginfo("reached")
+            break
+    
+    vel_message.angular.z = 0
+    velocity_publisher.publish(vel_message)
 
-
+def goToGoal(velocity_publisher,xgoal,ygoal):
+    
+    global x,y,yaw
+    vel_message = Twist()
+    loop_rate = rospy.Rate(100)
+    while True:
+        K_linear,K_angular, = 0.5,4
+        distance = abs(math.sqrt(
+            (xgoal-x) **2 + (ygoal - y)**2
+        ))
+        angleGoal = math.atan2(
+            (ygoal-y),(xgoal-x)
+        )
+        loop_rate.sleep()
+        angular_speed = (angleGoal - yaw) * K_angular
+        
+        linear_speed = distance*K_linear
+        
+        vel_message.linear.x = linear_speed
+        vel_message.angular.z = angular_speed
+        velocity_publisher.publish(vel_message)
+        
+        if (distance<0.001):
+            break
+        
 if __name__ == '__main__':
     
     try:
@@ -69,8 +124,9 @@ if __name__ == '__main__':
         postionTopic = rospy.Subscriber(position_topic,Pose,posCallback)
         
         time.sleep(2)
-        move(velocity_publisher,1,5,is_forward = True)
-    
+        #move(velocity_publisher,1,5,is_forward = True)
+        #rotatebot(velocity_publisher,10,90,True)
+        goToGoal(velocity_publisher,2,2)
     except rospy.ROSInterruptException:
         rospy.loginfo("node terminated.")
     
