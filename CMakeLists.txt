@@ -213,10 +213,14 @@ target_link_libraries(talker_node ${catkin_LIBRARIES})
 add_executable(listener_node src/sub_pub/listener.cpp)
 target_link_libraries(listener_node ${catkin_LIBRARIES})
 
-# addint Server
-add_executable(addIntServer src/services/addintServer.cpp)
-target_link_libraries(addIntServer ${catkin_LIBRARIES})
+# # addint Server
+# add_executable(addIntServer src/services/addintServer.cpp)
+# target_link_libraries(addIntServer ${catkin_LIBRARIES})
 
-# addint Server
-add_executable(addIntClient src/services/addintClient.cpp)
-target_link_libraries(addIntClient ${catkin_LIBRARIES})
+# # addint Server
+# add_executable(addIntClient src/services/addintClient.cpp)
+# target_link_libraries(addIntClient ${catkin_LIBRARIES})
+
+#straight_line movement
+add_executable(straight_line src/motion/turtlesim/straight_line.cpp)
+target_link_libraries(straight_line ${catkin_LIBRARIES})

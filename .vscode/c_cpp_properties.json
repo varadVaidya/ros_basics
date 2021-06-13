@@ -8,13 +8,10 @@
             "includePath": [
                 "/home/varad/catkin_ws/devel/include/**",
                 "/opt/ros/noetic/include/**",
-                "/home/varad/catkin_ws/src/ros_basics/include/**",
-                "/usr/include/**",
-                "/opt/ros/noetic/include"
+                "/usr/include/**"
             ],
             "name": "ROS",
-            "compileCommands": "${workspaceFolder}/build/compile_commands.json",
-            "configurationProvider": "ms-vscode.cmake-tools"
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
         }
     ],
     "version": 4

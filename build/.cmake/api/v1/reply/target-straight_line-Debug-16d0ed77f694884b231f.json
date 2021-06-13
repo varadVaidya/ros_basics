@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "devel/lib/ros_basics/addIntClient"
+			"path" : "devel/lib/ros_basics/straight_line"
 		}
 	],
 	"backtrace" : 1,
@@ -41,7 +41,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 221,
+				"line" : 225,
 				"parent" : 0
 			},
 			{
@@ -206,7 +206,7 @@
 			]
 		}
 	],
-	"id" : "addIntClient::@6890427a1f51a3e7e1df",
+	"id" : "straight_line::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -294,8 +294,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "addIntClient",
-	"nameOnDisk" : "addIntClient",
+	"name" : "straight_line",
+	"nameOnDisk" : "straight_line",
 	"paths" : 
 	{
 		"build" : ".",
@@ -316,7 +316,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/services/addintClient.cpp",
+			"path" : "src/motion/turtlesim/straight_line.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

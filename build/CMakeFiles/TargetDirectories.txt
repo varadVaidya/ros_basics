@@ -1,8 +1,7 @@
 /home/varad/catkin_ws/src/ros_basics/build/CMakeFiles/install.dir
 /home/varad/catkin_ws/src/ros_basics/build/CMakeFiles/list_install_components.dir
 /home/varad/catkin_ws/src/ros_basics/build/CMakeFiles/edit_cache.dir
-/home/varad/catkin_ws/src/ros_basics/build/CMakeFiles/addIntClient.dir
-/home/varad/catkin_ws/src/ros_basics/build/CMakeFiles/addIntServer.dir
+/home/varad/catkin_ws/src/ros_basics/build/CMakeFiles/straight_line.dir
 /home/varad/catkin_ws/src/ros_basics/build/CMakeFiles/listener_node.dir
 /home/varad/catkin_ws/src/ros_basics/build/CMakeFiles/talker_node.dir
 /home/varad/catkin_ws/src/ros_basics/build/CMakeFiles/ros_basics_generate_messages_nodejs.dir

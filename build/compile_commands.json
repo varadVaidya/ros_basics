@@ -1,13 +1,8 @@
 [
 {
   "directory": "/home/varad/catkin_ws/src/ros_basics/build",
-  "command": "/bin/x86_64-linux-gnu-g++-9  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"ros_basics\\\" -I/home/varad/catkin_ws/src/ros_basics/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/addIntClient.dir/src/services/addintClient.cpp.o -c /home/varad/catkin_ws/src/ros_basics/src/services/addintClient.cpp",
-  "file": "/home/varad/catkin_ws/src/ros_basics/src/services/addintClient.cpp"
-},
-{
-  "directory": "/home/varad/catkin_ws/src/ros_basics/build",
-  "command": "/bin/x86_64-linux-gnu-g++-9  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"ros_basics\\\" -I/home/varad/catkin_ws/src/ros_basics/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/addIntServer.dir/src/services/addintServer.cpp.o -c /home/varad/catkin_ws/src/ros_basics/src/services/addintServer.cpp",
-  "file": "/home/varad/catkin_ws/src/ros_basics/src/services/addintServer.cpp"
+  "command": "/bin/x86_64-linux-gnu-g++-9  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"ros_basics\\\" -I/home/varad/catkin_ws/src/ros_basics/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/straight_line.dir/src/motion/turtlesim/straight_line.cpp.o -c /home/varad/catkin_ws/src/ros_basics/src/motion/turtlesim/straight_line.cpp",
+  "file": "/home/varad/catkin_ws/src/ros_basics/src/motion/turtlesim/straight_line.cpp"
 },
 {
   "directory": "/home/varad/catkin_ws/src/ros_basics/build",
